@@ -117,56 +117,56 @@ namespace BlackJack
                     {
                         if (i == 1)
                         {
-                            playingCards.Add(new Card("Ace", "Spades", 1, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Spades\\Ace.png"));
-                            playingCards.Add(new Card("King", "Spades", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Spades\\King.png"));
-                            playingCards.Add(new Card("Queen", "Spades", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Spades\\Queen.png"));
-                            playingCards.Add(new Card(("Jack"), "Spades", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Spades\\Jack.png"));
+                            playingCards.Add(new Card("Ace", "Spades", 1, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Spades\\Ace.png"));
+                            playingCards.Add(new Card("King", "Spades", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Spades\\King.png"));
+                            playingCards.Add(new Card("Queen", "Spades", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Spades\\Queen.png"));
+                            playingCards.Add(new Card(("Jack"), "Spades", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Spades\\Jack.png"));
                         }
                         else
                         {
-                            playingCards.Add(new Card(i.ToString(), "Spades", i, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Spades\\" + i.ToString() + ".png"));
+                            playingCards.Add(new Card(i.ToString(), "Spades", i, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Spades\\" + i.ToString() + ".png"));
                         }
                     }
                     else if (count == 1)//clubs
                     {
                         if (i == 1)
                         {
-                            playingCards.Add(new Card("Ace", "Clubs", 1, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Clubs\\Ace.png"));
-                            playingCards.Add(new Card("King", "Clubs", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Clubs\\King.png"));
-                            playingCards.Add(new Card("Jack", "Clubs", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Clubs\\Jack.png"));
-                            playingCards.Add(new Card(("Queen"), "Clubs", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Clubs\\Queen.png"));
+                            playingCards.Add(new Card("Ace", "Clubs", 1, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Clubs\\Ace.png"));
+                            playingCards.Add(new Card("King", "Clubs", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Clubs\\King.png"));
+                            playingCards.Add(new Card("Jack", "Clubs", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Clubs\\Jack.png"));
+                            playingCards.Add(new Card(("Queen"), "Clubs", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Clubs\\Queen.png"));
                         }
                         else
                         {
-                            playingCards.Add(new Card(i.ToString(), "Clubs", i, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Clubs\\" + i.ToString() + ".png"));
+                            playingCards.Add(new Card(i.ToString(), "Clubs", i, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Clubs\\" + i.ToString() + ".png"));
                         }
                     }
                     else if (count == 2)//hearts
                     {
                         if (i == 1)
                         {
-                            playingCards.Add(new Card("Jack", "Hearts", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Hearts\\Jack.png"));
-                            playingCards.Add(new Card("Ace", "Hearts", 1, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Hearts\\Ace.png"));
-                            playingCards.Add(new Card("King", "Hearts", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Hearts\\King.png"));
-                            playingCards.Add(new Card(("Queen"), "Hearts", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Hearts\\Queen.png"));
+                            playingCards.Add(new Card("Jack", "Hearts", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Hearts\\Jack.png"));
+                            playingCards.Add(new Card("Ace", "Hearts", 1, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Hearts\\Ace.png"));
+                            playingCards.Add(new Card("King", "Hearts", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Hearts\\King.png"));
+                            playingCards.Add(new Card(("Queen"), "Hearts", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Hearts\\Queen.png"));
                         }
                         else
                         {
-                            playingCards.Add(new Card(i.ToString(), "Hearts", i, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Hearts\\" + i.ToString() + ".png"));
+                            playingCards.Add(new Card(i.ToString(), "Hearts", i, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Hearts\\" + i.ToString() + ".png"));
                         }
                     }
                     else if (count == 3)//Diamond
                     {
                         if (i == 1)
                         {
-                            playingCards.Add(new Card("Queen", "Diamonds", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Diamonds\\Queen.png"));
-                            playingCards.Add(new Card("King", "Diamonds", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Diamonds\\King.png"));
-                            playingCards.Add(new Card("Jack", "Diamonds", 10, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Diamonds\\Jack.png"));
-                            playingCards.Add(new Card(("Ace"), "Diamonds", 1, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Diamonds\\Ace.png"));
+                            playingCards.Add(new Card("Queen", "Diamonds", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Diamonds\\Queen.png"));
+                            playingCards.Add(new Card("King", "Diamonds", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Diamonds\\King.png"));
+                            playingCards.Add(new Card("Jack", "Diamonds", 10, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Diamonds\\Jack.png"));
+                            playingCards.Add(new Card(("Ace"), "Diamonds", 1, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Diamonds\\Ace.png"));
                         }
                         else
                         {
-                            playingCards.Add(new Card(i.ToString(), "Diamonds", i, "C:\\Users\\justi\\Desktop\\playindDeckCards\\Diamonds\\" + i.ToString() + ".png"));
+                            playingCards.Add(new Card(i.ToString(), "Diamonds", i, "C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\Diamonds\\" + i.ToString() + ".png"));
                         }
                     }
                 }
@@ -648,7 +648,7 @@ namespace BlackJack
             dealerCard1.Image = dealersCards.getDealersCards()[0].getCardImage();
             
             dealersCards.addCard(shufflingDeck[3]);
-            dealerCard2.Image = Image.FromFile("C:\\Users\\justi\\Desktop\\playindDeckCards\\unknown.png");
+            dealerCard2.Image = Image.FromFile("C:\\Users\\justi\\source\\repos\\BlackJack\\playindDeckCards\\unknown.png");
             
 
             Console.WriteLine("Dealers hand: " + shufflingDeck[1].getCardSuit() + " " + shufflingDeck[1].getCardFace() + " - " + shufflingDeck[3].getCardSuit() + " " + shufflingDeck[3].getCardFace());
